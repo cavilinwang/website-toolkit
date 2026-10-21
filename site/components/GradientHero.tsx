@@ -6,10 +6,10 @@ export default function GradientHero() {
   return (
     <ShaderGradientCanvas style={{ position: "absolute", inset: 0 }} pointerEvents="none">
       <ShaderGradient
-        type="waterPlane"
+        type="plane"
         color1="#5b3cff" color2="#ff5fa2" color3="#00d2ff"
-        animate="on" uSpeed={0.2} uStrength={3} uDensity={1.2}
-        cDistance={3.6} cPolarAngle={90} grain="on"
+        animate="on" uSpeed={0.2} uStrength={4} uDensity={1.2}
+        cDistance={3.6} cPolarAngle={90} grain="off" brightness={1.1}
       />
     </ShaderGradientCanvas>
   );

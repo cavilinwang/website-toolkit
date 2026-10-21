@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <section>
         <GradientHero />
-        <div className="content">
+        <div className="layer">
           <GlassCard>
             <h1>Your headline</h1>
             <p>Shader gradient behind, liquid glass in front. Replace this copy.</p>
@@ -28,7 +28,7 @@ export default function Home() {
           <PromptBox />
         </div>
       </section>
-      <section>
+      <section style={{ alignItems: "end" }}>
         <Scene3D />
         <Reveal>
           <h2>Interactive 3D</h2>
